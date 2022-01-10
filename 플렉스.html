@@ -15,12 +15,10 @@
         .container{
             display: flex;
             height:100vh;
+            justify-content: center;
+            align-items: center;
         }
 
-        .item{
-            flex-basis: 300px;
-            flex-grow: 1;
-        }
 
         .item{
             font-size: 3em;
@@ -33,17 +31,17 @@
 
         .box1{
             background-color: #2980b9;
-            flex-grow: 1;
+            align-self: flex-start;
         }
 
         .box2{
             background-color: #16a085;
-            flex-grow: 2;
+            align-self: stretch;
         }
 
         .box3{
             background-color: #8e44ad;
-            flex-grow: 3;
+            align-self: flex-end;
         }
 
     </style>
